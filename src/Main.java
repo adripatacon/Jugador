@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args)  throws IOException {
 
         // Instanciar un objeto de la clase Jugador.
-        Jugador Neymar = new Jugador("Messi", 20);
+        Jugador Ronaldo = new Jugador("Ronaldo", 22);
 
         // Instanciar un objeto para leer cadenas de caracteres
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,16 +21,16 @@ public class Main {
         // Leer cadenas de caracteres.
         String var1; // Creamos una variable para leer.
         System.out.println("Nombre: ");
-        var1 = br.readLine(); // Leemos la entrada como cadena.
+        jugador1 = br.readLine(); // Leemos la entrada como cadena.
         System.out.println("");
-        Neymar.setNombre(var1); // Le asignamos la variable leída con el setter.
+        Ronaldo.setNombre(jugador1); // Le asignamos la variable leída con el setter.
 
 
         // Cambiar una cadena de caracteres a un integer.
         System.out.println("Edad: ");
-        String var2 = br.readLine(); // Leemos la entrada como cadena.
-        int edad = Integer.parseInt(var2); // Convertimos la cadena a un entero.
-        Neymar.setEdad(edad); // Asignamos la edad usando el setter.
+        String jugador2 = br.readLine(); // Leemos la entrada como cadena.
+        int edad = Integer.parseInt(jugador2); // Convertimos la cadena a un entero.
+        Ronaldo.setEdad(edad); // Asignamos la edad usando el setter.
 
 
     }
