@@ -19,7 +19,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // Leer cadenas de caracteres.
-        String var1; // Creamos una variable para leer.
+        String jugador1; // Creamos una variable para leer.
         System.out.println("Nombre: ");
         jugador1 = br.readLine(); // Leemos la entrada como cadena.
         System.out.println("");
